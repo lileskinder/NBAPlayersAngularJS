@@ -1,0 +1,10 @@
+<h1>NBA players List</h1>
+
+<ul>
+    <li ng-repeat="player in mainCtrl.players">
+        {{player.id}}<br>
+        <b>Name:</b> {{player.first_name}} {{player.last_name}}<br>
+        <b>Position:</b> {{player.position}}<br>
+        <b>Team:</b>{{player.team.full_name}}<br>
+    </li>
+</ul>
